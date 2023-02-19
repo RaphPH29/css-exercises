@@ -1,8 +1,24 @@
 .container {
+  display:flex;
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+}
+
+.right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.profile-image {
+  align-self: flex-end;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .box {
